@@ -5,7 +5,7 @@ const cors = require('cors')
 
 const app = express();
 app.use(cors({
-
+  origin: 'https://fullstack-assignment-powe.vercel.app/'
 }))
 app.use(express.json());
 
